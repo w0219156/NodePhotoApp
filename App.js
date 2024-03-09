@@ -1,3 +1,5 @@
+// Initial code base from provided in class INFT3075
+
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, View, Pressable, Text, Image, TextInput, ActivityIndicator, ScrollView, Alert } from 'react-native';
 import * as ImagePicker from 'expo-image-picker';
@@ -88,6 +90,7 @@ function CreateScreen({ navigation }) {
     return data.id;
   };
 
+  // Check for missing information
   const submitPost = async () => {
     if (!title || !content || !image || !category) {
       Alert.alert('Missing Information', 'Please fill in all fields.');
