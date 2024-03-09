@@ -1,4 +1,4 @@
-// Initial code base from provided in class INFT3075
+// Initial  code base from provided in class INFT3075
 
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, View, Pressable, Text, Image, TextInput, ActivityIndicator, ScrollView, Alert } from 'react-native';
